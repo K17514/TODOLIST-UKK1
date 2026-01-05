@@ -61,8 +61,8 @@ https://templatemo.com/tm-584-pod-talk
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand me-lg-5 me-0" href="<?= base_url('home/index'); ?>">
-            <img src="<?= base_url('images/logo.png'); ?>" class="logo-image img-fluid" alt="templatemo pod talk">
+        <a class="navbar-brand me-lg-5 me-0" href="<?= base_url(''); ?>">
+            <img src="<?= base_url('images/logo.png'); ?>" class="logo-image img-fluid" alt="templatemo pod talk"> TODO LIST
         </a>
 
 

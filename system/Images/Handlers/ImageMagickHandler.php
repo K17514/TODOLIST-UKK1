@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,6 +13,7 @@
 
 namespace CodeIgniter\Images\Handlers;
 
+use CodeIgniter\I18n\Time;
 use CodeIgniter\Images\Exceptions\ImageException;
 use Config\Images;
 use Exception;
@@ -18,12 +21,6 @@ use Imagick;
 
 /**
  * Class ImageMagickHandler
- *
- * To make this library as compatible as possible with the broadest
- * number of installations, we do not use the Imagick extension,
- * but simply use the command line version.
- *
- * hmm - the width & height accessors at the end use the imagick extension.
  *
  * FIXME - This needs conversion & unit testing, to use the imagick extension
  */
@@ -37,8 +34,6 @@ class ImageMagickHandler extends BaseHandler
     protected $resource;
 
     /**
-     * Constructor.
-     *
      * @param Images $config
      *
      * @throws ImageException
@@ -47,24 +42,37 @@ class ImageMagickHandler extends BaseHandler
     {
         parent::__construct($config);
 
-        // We should never see this, so can't test it
-        // @codeCoverageIgnoreStart
-        if (! (extension_loaded('imagick') || class_exists('Imagick'))) {
-            throw ImageException::forMissingExtension('IMAGICK');
+        if (! extension_loaded('imagick') && ! class_exists(Imagick::class)) {
+            throw ImageException::forMissingExtension('IMAGICK'); // @codeCoverageIgnore
         }
-        // @codeCoverageIgnoreEnd
+
+        $cmd = $this->config->libraryPath;
+
+        if ($cmd === '') {
+            throw ImageException::forInvalidImageLibraryPath($cmd);
+        }
+
+        if (preg_match('/convert$/i', $cmd) !== 1) {
+            $cmd = rtrim($cmd, '\/') . '/convert';
+
+            $this->config->libraryPath = $cmd;
+        }
+
+        if (! is_file($cmd)) {
+            throw ImageException::forInvalidImageLibraryPath($cmd);
+        }
     }
 
     /**
      * Handles the actual resizing of the image.
      *
-     * @throws Exception
-     *
      * @return ImageMagickHandler
+     *
+     * @throws Exception
      */
     public function _resize(bool $maintainRatio = false)
     {
-        $source      = ! empty($this->resource) ? $this->resource : $this->image()->getPathname();
+        $source      = empty($this->resource) ? $this->image()->getPathname() : $this->resource;
         $destination = $this->getResourcePath();
 
         $escape = '\\';
@@ -73,9 +81,9 @@ class ImageMagickHandler extends BaseHandler
             $escape = '';
         }
 
-        $action = $maintainRatio === true
-            ? ' -resize ' . ($this->width ?? 0) . 'x' . ($this->height ?? 0) . ' "' . $source . '" "' . $destination . '"'
-            : ' -resize ' . ($this->width ?? 0) . 'x' . ($this->height ?? 0) . "{$escape}! \"" . $source . '" "' . $destination . '"';
+        $action = $maintainRatio
+            ? ' -resize ' . ($this->width ?? 0) . 'x' . ($this->height ?? 0) . ' ' . escapeshellarg($source) . ' ' . escapeshellarg($destination)
+            : ' -resize ' . ($this->width ?? 0) . 'x' . ($this->height ?? 0) . "{$escape}! " . escapeshellarg($source) . ' ' . escapeshellarg($destination);
 
         $this->process($action);
 
@@ -85,13 +93,13 @@ class ImageMagickHandler extends BaseHandler
     /**
      * Crops the image.
      *
-     * @throws Exception
+     * @return bool|ImageMagickHandler
      *
-     * @return bool|\CodeIgniter\Images\Handlers\ImageMagickHandler
+     * @throws Exception
      */
     public function _crop()
     {
-        $source      = ! empty($this->resource) ? $this->resource : $this->image()->getPathname();
+        $source      = empty($this->resource) ? $this->image()->getPathname() : $this->resource;
         $destination = $this->getResourcePath();
 
         $extent = ' ';
@@ -110,15 +118,15 @@ class ImageMagickHandler extends BaseHandler
      * Handles the rotation of an image resource.
      * Doesn't save the image, but replaces the current resource.
      *
-     * @throws Exception
-     *
      * @return $this
+     *
+     * @throws Exception
      */
     protected function _rotate(int $angle)
     {
         $angle = '-rotate ' . $angle;
 
-        $source      = ! empty($this->resource) ? $this->resource : $this->image()->getPathname();
+        $source      = empty($this->resource) ? $this->image()->getPathname() : $this->resource;
         $destination = $this->getResourcePath();
 
         $action = ' ' . $angle . ' ' . escapeshellarg($source) . ' ' . escapeshellarg($destination);
@@ -131,15 +139,15 @@ class ImageMagickHandler extends BaseHandler
     /**
      * Flattens transparencies, default white background
      *
-     * @throws Exception
-     *
      * @return $this
+     *
+     * @throws Exception
      */
     protected function _flatten(int $red = 255, int $green = 255, int $blue = 255)
     {
         $flatten = "-background 'rgb({$red},{$green},{$blue})' -flatten";
 
-        $source      = ! empty($this->resource) ? $this->resource : $this->image()->getPathname();
+        $source      = empty($this->resource) ? $this->image()->getPathname() : $this->resource;
         $destination = $this->getResourcePath();
 
         $action = ' ' . $flatten . ' ' . escapeshellarg($source) . ' ' . escapeshellarg($destination);
@@ -152,15 +160,15 @@ class ImageMagickHandler extends BaseHandler
     /**
      * Flips an image along it's vertical or horizontal axis.
      *
-     * @throws Exception
-     *
      * @return $this
+     *
+     * @throws Exception
      */
     protected function _flip(string $direction)
     {
         $angle = $direction === 'horizontal' ? '-flop' : '-flip';
 
-        $source      = ! empty($this->resource) ? $this->resource : $this->image()->getPathname();
+        $source      = empty($this->resource) ? $this->image()->getPathname() : $this->resource;
         $destination = $this->getResourcePath();
 
         $action = ' ' . $angle . ' ' . escapeshellarg($source) . ' ' . escapeshellarg($destination);
@@ -175,34 +183,23 @@ class ImageMagickHandler extends BaseHandler
      */
     public function getVersion(): string
     {
-        $result = $this->process('-version');
+        $versionString = $this->process('-version')[0];
+        preg_match('/ImageMagick\s(?P<version>[\S]+)/', $versionString, $matches);
 
-        // The first line has the version in it...
-        preg_match('/(ImageMagick\s[\S]+)/', $result[0], $matches);
-
-        return str_replace('ImageMagick ', '', $matches[0]);
+        return $matches['version'];
     }
 
     /**
      * Handles all of the grunt work of resizing, etc.
      *
-     * @throws Exception
-     *
      * @return array Lines of output from shell command
+     *
+     * @throws Exception
      */
     protected function process(string $action, int $quality = 100): array
     {
-        // Do we have a vaild library path?
-        if (empty($this->config->libraryPath)) {
-            throw ImageException::forInvalidImageLibraryPath($this->config->libraryPath);
-        }
-
         if ($action !== '-version') {
             $this->supportedFormatCheck();
-        }
-
-        if (! preg_match('/convert$/i', $this->config->libraryPath)) {
-            $this->config->libraryPath = rtrim($this->config->libraryPath, '/') . '/convert';
         }
 
         $cmd = $this->config->libraryPath;
@@ -231,11 +228,13 @@ class ImageMagickHandler extends BaseHandler
      * Example:
      *    $image->resize(100, 200, true)
      *          ->save();
+     *
+     * @param non-empty-string|null $target
      */
     public function save(?string $target = null, int $quality = 90): bool
     {
         $original = $target;
-        $target   = empty($target) ? $this->image()->getPathname() : $target;
+        $target   = ($target === null || $target === '') ? $this->image()->getPathname() : $target;
 
         // If no new resource has been created, then we're
         // simply copy the existing one.
@@ -275,9 +274,9 @@ class ImageMagickHandler extends BaseHandler
      * To ensure we can use all features, like transparency,
      * during the process, we'll use a PNG as the temp file type.
      *
-     * @throws Exception
-     *
      * @return string
+     *
+     * @throws Exception
      */
     protected function getResourcePath()
     {
@@ -285,7 +284,7 @@ class ImageMagickHandler extends BaseHandler
             return $this->resource;
         }
 
-        $this->resource = WRITEPATH . 'cache/' . time() . '_' . bin2hex(random_bytes(10)) . '.png';
+        $this->resource = WRITEPATH . 'cache/' . Time::now()->getTimestamp() . '_' . bin2hex(random_bytes(10)) . '.png';
 
         $name = basename($this->resource);
         $path = pathinfo($this->resource, PATHINFO_DIRNAME);
@@ -297,6 +296,8 @@ class ImageMagickHandler extends BaseHandler
 
     /**
      * Make the image resource object if needed
+     *
+     * @return void
      *
      * @throws Exception
      */
@@ -310,16 +311,14 @@ class ImageMagickHandler extends BaseHandler
     /**
      * Check if given image format is supported
      *
+     * @return void
+     *
      * @throws ImageException
      */
     protected function supportedFormatCheck()
     {
-        switch ($this->image()->imageType) {
-            case IMAGETYPE_WEBP:
-                if (! in_array('WEBP', Imagick::queryFormats(), true)) {
-                    throw ImageException::forInvalidImageCreate(lang('images.webpNotSupported'));
-                }
-                break;
+        if ($this->image()->imageType === IMAGETYPE_WEBP && ! in_array('WEBP', Imagick::queryFormats(), true)) {
+            throw ImageException::forInvalidImageCreate(lang('Images.webpNotSupported'));
         }
     }
 
@@ -330,7 +329,10 @@ class ImageMagickHandler extends BaseHandler
      */
     protected function _text(string $text, array $options = [])
     {
-        $cmd = '';
+        $xAxis   = 0;
+        $yAxis   = 0;
+        $gravity = '';
+        $cmd     = '';
 
         // Reverse the vertical offset
         // When the image is positioned at the bottom
@@ -339,16 +341,16 @@ class ImageMagickHandler extends BaseHandler
         // invert the offset. Note: The horizontal
         // offset flips itself automatically
         if ($options['vAlign'] === 'bottom') {
-            $options['vOffset'] = $options['vOffset'] * -1;
+            $options['vOffset'] *= -1;
         }
 
         if ($options['hAlign'] === 'right') {
-            $options['hOffset'] = $options['hOffset'] * -1;
+            $options['hOffset'] *= -1;
         }
 
         // Font
         if (! empty($options['fontPath'])) {
-            $cmd .= " -font '{$options['fontPath']}'";
+            $cmd .= ' -font ' . escapeshellarg($options['fontPath']);
         }
 
         if (isset($options['hAlign'], $options['vAlign'])) {
@@ -387,28 +389,28 @@ class ImageMagickHandler extends BaseHandler
             $xAxis = $xAxis >= 0 ? '+' . $xAxis : $xAxis;
             $yAxis = $yAxis >= 0 ? '+' . $yAxis : $yAxis;
 
-            $cmd .= " -gravity {$gravity} -geometry {$xAxis}{$yAxis}";
+            $cmd .= ' -gravity ' . escapeshellarg($gravity) . ' -geometry ' . escapeshellarg("{$xAxis}{$yAxis}");
         }
 
         // Color
         if (isset($options['color'])) {
             [$r, $g, $b] = sscanf("#{$options['color']}", '#%02x%02x%02x');
 
-            $cmd .= " -fill 'rgba({$r},{$g},{$b},{$options['opacity']})'";
+            $cmd .= ' -fill ' . escapeshellarg("rgba({$r},{$g},{$b},{$options['opacity']})");
         }
 
         // Font Size - use points....
         if (isset($options['fontSize'])) {
-            $cmd .= " -pointsize {$options['fontSize']}";
+            $cmd .= ' -pointsize ' . escapeshellarg((string) $options['fontSize']);
         }
 
         // Text
-        $cmd .= " -annotate 0 '{$text}'";
+        $cmd .= ' -annotate 0 ' . escapeshellarg($text);
 
-        $source      = ! empty($this->resource) ? $this->resource : $this->image()->getPathname();
+        $source      = empty($this->resource) ? $this->image()->getPathname() : $this->resource;
         $destination = $this->getResourcePath();
 
-        $cmd = " '{$source}' {$cmd} '{$destination}'";
+        $cmd = ' ' . escapeshellarg($source) . ' ' . $cmd . ' ' . escapeshellarg($destination);
 
         $this->process($cmd);
     }
@@ -447,30 +449,15 @@ class ImageMagickHandler extends BaseHandler
     {
         $orientation = $this->getEXIF('Orientation', $silent);
 
-        switch ($orientation) {
-            case 2:
-                return $this->flip('horizontal');
-
-            case 3:
-                return $this->rotate(180);
-
-            case 4:
-                return $this->rotate(180)->flip('horizontal');
-
-            case 5:
-                return $this->rotate(90)->flip('horizontal');
-
-            case 6:
-                return $this->rotate(90);
-
-            case 7:
-                return $this->rotate(270)->flip('horizontal');
-
-            case 8:
-                return $this->rotate(270);
-
-            default:
-                return $this;
-        }
+        return match ($orientation) {
+            2       => $this->flip('horizontal'),
+            3       => $this->rotate(180),
+            4       => $this->rotate(180)->flip('horizontal'),
+            5       => $this->rotate(90)->flip('horizontal'),
+            6       => $this->rotate(90),
+            7       => $this->rotate(270)->flip('horizontal'),
+            8       => $this->rotate(270),
+            default => $this,
+        };
     }
 }
