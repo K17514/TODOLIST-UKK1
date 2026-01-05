@@ -1,0 +1,137 @@
+ERROR - 2025-04-18 00:59:37 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 02:22:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND pesanan.id_produk IS NOT NULL
+GROUP BY `pesanan`.`id_produk`
+   ...' at line 12
+CRITICAL - 2025-04-18 02:22:34 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1312): App\Models\M_belajar->getLaporanKeuangan(NULL)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->exportLaporanKeuangan()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-18 02:23:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND pesanan.id_produk IS NOT NULL
+GROUP BY `pesanan`.`id_produk`
+   ...' at line 12
+ERROR - 2025-04-18 02:28:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND pesanan.id_produk IS NOT NULL
+GROUP BY `pesanan`.`id_produk`
+   ...' at line 11
+ERROR - 2025-04-18 02:28:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND pesanan.id_produk IS NOT NULL
+GROUP BY `pesanan`.`id_produk`
+   ...' at line 11
+ERROR - 2025-04-18 02:29:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `pesanan`.`id_produk` IS NOT NULL
+GROUP BY `pesanan`.`id_produk`...' at line 11
+ERROR - 2025-04-18 02:30:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND pesanan.id_produk IS NULL
+GROUP BY `pesanan`.`id_produk`
+       ...' at line 11
+ERROR - 2025-04-18 02:30:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND pesanan.id_produk IS NOT NULL
+GROUP BY `pesanan`.`id_produk`)
+  ...' at line 12
+ERROR - 2025-04-18 02:33:21 --> Table 'point_of_sale.produk_modal' doesn't exist
+CRITICAL - 2025-04-18 02:34:07 --> Invalid file: laporan_excel.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan_excel.p...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('laporan_excel', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1316): view('laporan_excel', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->exportLaporanKeuangan()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-18 02:34:26 --> Class 'App\Controllers\Html' not found
+#0 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->exportLaporanKeuangan()
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+CRITICAL - 2025-04-18 02:35:13 --> Call to undefined method PhpOffice\PhpSpreadsheet\Writer\Html::loadFromString()
+#0 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->exportLaporanKeuangan()
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+CRITICAL - 2025-04-18 15:17:50 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 77, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(54): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-18 15:18:05 --> Illegal string offset 'status'
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Users\\redmib...', 78, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(54): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-18 15:28:06 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 15:28:08 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-18 15:28:08 --> Invalid file: profile.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1376): view('profile')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-18 15:28:12 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 15:28:33 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 16:03:52 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 16:04:17 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 16:04:20 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 16:04:28 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-18 04:51:13 --> syntax error, unexpected ''user'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('admin/deleted_d...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(153): view('admin/deleted_d...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-18 17:30:43 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 17:36:47 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 05:53:56 --> Table 'point_of_sale.metode' doesn't exist
+CRITICAL - 2025-04-18 05:53:56 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(473): App\Models\M_belajar->getWhere('metode', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->detailmetode('3')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-18 18:00:08 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 18:00:37 --> Column 'id_user' cannot be null
+ERROR - 2025-04-18 18:00:49 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-18 18:00:49 --> Invalid file: profile.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1407): view('profile')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}

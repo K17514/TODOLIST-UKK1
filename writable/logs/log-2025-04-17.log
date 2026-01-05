@@ -1,0 +1,172 @@
+ERROR - 2025-04-17 09:21:12 --> Column 'id_user' cannot be null
+ERROR - 2025-04-17 09:54:04 --> Column 'id_user' cannot be null
+ERROR - 2025-04-17 09:55:09 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-17 09:55:09 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1198): view('menu')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->about()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-17 09:55:24 --> Column 'id_user' cannot be null
+ERROR - 2025-04-17 09:56:23 --> Column 'id_user' cannot be null
+ERROR - 2025-04-17 20:31:29 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-17 08:39:03 --> Cannot redeclare App\Models\M_belajar::getDetailPesananUser()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-17 08:47:10 --> Call to undefined function format_rupiah()
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include()
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('pesanan_saya', Array, true)
+#3 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(497): view('pesanan_saya', Array)
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->pesananSaya()
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+ERROR - 2025-04-17 21:06:54 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-17 11:10:38 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('terimakasih', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1137): view('terimakasih', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->terimakasih('42')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-17 23:15:42 --> Column 'id_user' cannot be null
+ERROR - 2025-04-17 23:16:58 --> Column 'id_user' cannot be null
+ERROR - 2025-04-17 23:20:40 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-17 12:55:42 --> syntax error, unexpected ';'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/terimakasi...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/terimakasi...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-17 12:56:09 --> syntax error, unexpected '{'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/terimakasi...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/terimakasi...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-17 13:17:46 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\pointofsale\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\pointofsale\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1292): CodeIgniter\Model->__call('join32', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota('48')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-17 13:32:20 --> Unknown column 'pa.harga' in 'field list'
+CRITICAL - 2025-04-17 13:32:20 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(410): App\Models\M_belajar->getDetailPesananByNota('48')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-17 13:32:53 --> Unknown column 'pa.harga' in 'field list'
+CRITICAL - 2025-04-17 13:32:53 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1287): App\Models\M_belajar->getNotaData('31')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota('31')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-17 13:34:15 --> syntax error, unexpected '$notaData' (T_VARIABLE)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/printnota/...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/printnota/...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-17 13:34:24 --> Unknown column 'pa.harga' in 'field list'
+CRITICAL - 2025-04-17 13:34:24 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1288): App\Models\M_belajar->getNotaData(Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota(Array)
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-17 13:35:05 --> Unknown column 'pa.harga' in 'field list'
+CRITICAL - 2025-04-17 13:35:05 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1288): App\Models\M_belajar->getNotaData(Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota(Array)
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-17 13:35:09 --> Unknown column 'pa.harga' in 'field list'
+CRITICAL - 2025-04-17 13:35:09 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1288): App\Models\M_belajar->getNotaData(Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota(Array)
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-17 13:36:56 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Models\M_belajar.php(618): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 618, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1288): App\Models\M_belajar->getNotaData(Array)
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota(Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#7 {main}
+ERROR - 2025-04-17 13:37:18 --> Unknown column 'pa.harga' in 'field list'
+CRITICAL - 2025-04-17 13:37:18 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1288): App\Models\M_belajar->getNotaData(Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota(Array)
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-17 13:43:47 --> Unknown column 'pa.harga_harga_paket' in 'field list'
+CRITICAL - 2025-04-17 13:43:47 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1288): App\Models\M_belajar->getNotaData(Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota(Array)
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-17 13:45:39 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\printnota.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 115, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('printnota', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1296): view('printnota', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->printnota(Array)
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-17 23:57:55 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\pointofsale\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\pointofsale\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1312): CodeIgniter\Model->__call('getLaporanNota', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->excellapor_keuangan()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}

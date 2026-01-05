@@ -1,0 +1,75 @@
+CRITICAL - 2025-04-12 10:51:05 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\redmib...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+ERROR - 2025-04-12 22:52:59 --> Column 'username' cannot be null
+CRITICAL - 2025-04-12 10:56:31 --> Too few arguments to function App\Controllers\Home::welcome(), 0 passed in C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->welcome()
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+ERROR - 2025-04-12 22:57:11 --> Column 'username' cannot be null
+ERROR - 2025-04-12 10:58:08 --> Column 'username' cannot be null
+ERROR - 2025-04-12 10:59:21 --> Column 'username' cannot be null
+ERROR - 2025-04-12 10:59:31 --> Column 'username' cannot be null
+ERROR - 2025-04-12 23:03:50 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-12 23:03:50 --> Invalid file: profile.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(716): view('profile')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-12 23:04:05 --> Column 'id_user' cannot be null
+ERROR - 2025-04-12 23:04:40 --> Column 'id_user' cannot be null
+ERROR - 2025-04-12 23:06:08 --> Column 'id_user' cannot be null
+ERROR - 2025-04-12 23:07:54 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-12 11:21:41 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-12 23:27:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 2
+ERROR - 2025-04-12 11:28:41 --> Column 'username' cannot be null
+CRITICAL - 2025-04-12 11:38:32 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-12 11:39:00 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-12 23:41:39 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\redmib...', 285, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\app\Models\M_belajar.php(285): file_get_contents('https://api.ipi...')
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(108): App\Models\M_belajar->log_activity('1', 'User logged in')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}

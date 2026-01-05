@@ -1,0 +1,136 @@
+CRITICAL - 2025-04-11 07:55:00 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\redmib...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-11 07:55:38 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\redmib...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-11 07:56:12 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\redmib...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-11 07:56:58 --> Call to a member function move() on array
+#0 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->simpan_produk()
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+ERROR - 2025-04-11 07:58:33 --> Unknown column 'kategori' in 'field list'
+ERROR - 2025-04-11 07:58:47 --> Unknown column 'kategori' in 'field list'
+ERROR - 2025-04-11 08:01:36 --> Unknown column 'kategori' in 'field list'
+ERROR - 2025-04-11 08:01:42 --> Unknown column 'kategori' in 'field list'
+ERROR - 2025-04-11 08:03:23 --> Unknown column 'kategori' in 'field list'
+ERROR - 2025-04-11 08:05:02 --> Unknown column 'kategori' in 'field list'
+ERROR - 2025-04-11 08:06:37 --> Unknown column 'kategori' in 'field list'
+CRITICAL - 2025-04-11 08:10:52 --> unlink(images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/)...', 'C:\\Users\\redmib...', 472, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(472): unlink('images/')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->simpan_produk()
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#7 {main}
+ERROR - 2025-04-11 20:26:01 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-11 08:37:38 --> Cannot redeclare App\Controllers\Home::simpan_produk()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-11 08:39:47 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\eproduk.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 22, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('eproduk', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(499): view('eproduk', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_kategori('1')
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-11 08:41:03 --> Unknown column 'foto' in 'field list'
+ERROR - 2025-04-11 22:29:13 --> Column 'id_user' cannot be null
+ERROR - 2025-04-11 22:41:05 --> Column 'id_user' cannot be null
+ERROR - 2025-04-11 23:01:49 --> Column 'id_user' cannot be null
+ERROR - 2025-04-11 23:02:38 --> Column 'id_user' cannot be null
+ERROR - 2025-04-11 11:03:05 --> Table 'point_of_sale.question' doesn't exist
+CRITICAL - 2025-04-11 11:03:05 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(145): App\Models\M_belajar->getDelete('question', 'deleted_at IS N...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-11 11:13:24 --> Unknown column 'id_wdetail' in 'order clause'
+CRITICAL - 2025-04-11 11:13:24 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(46): App\Models\M_belajar->tampil1('web_detail', 'id_wdetail', true)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-11 11:14:50 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/settings')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/settings')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-11 11:15:02 --> Unknown column 'id_wdetail' in 'order clause'
+CRITICAL - 2025-04-11 11:15:02 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(46): App\Models\M_belajar->tampil1('web_detail', 'id_wdetail', true)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-11 23:15:45 --> Column 'id_user' cannot be null
+ERROR - 2025-04-11 11:17:39 --> Unknown column 'id_wdetail' in 'where clause'
+ERROR - 2025-04-11 11:22:42 --> Table 'point_of_sale.exam_detail' doesn't exist
+CRITICAL - 2025-04-11 11:22:42 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(149): App\Models\M_belajar->getDelete('exam_detail', 'deleted_at IS N...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-11 23:34:32 --> Column 'id_user' cannot be null
+ERROR - 2025-04-11 23:35:04 --> Column 'id_user' cannot be null
+ERROR - 2025-04-11 23:35:15 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-11 23:35:15 --> Invalid file: profile.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(663): view('profile')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}

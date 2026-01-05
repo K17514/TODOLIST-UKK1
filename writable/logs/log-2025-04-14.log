@@ -1,0 +1,466 @@
+CRITICAL - 2025-04-14 00:08:46 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 57, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(30): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-14 09:00:00 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:01:29 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:05:09 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:15:34 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:15:54 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:21:11 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:21:12 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:21:40 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-14 09:23:38 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-04-14 09:26:42 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 09:34:46 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 10:33:01 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 19:39:42 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-14 08:21:03 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\inputdatas.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 120, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('inputdatas', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(354): view('inputdatas', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formdatas()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-14 08:29:41 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\tampildata.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 137, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('tampildata', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(324): view('tampildata', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-14 08:31:13 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tampildata')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tampildata')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 08:31:18 --> Column 'id_paket' in order clause is ambiguous
+CRITICAL - 2025-04-14 08:31:18 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(321): App\Models\M_belajar->joinwc('paket', 'paket_detail', 'paket_detail.id...', 'id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 08:31:30 --> Unknown column 'paket_detail.deleted_at' in 'where clause'
+CRITICAL - 2025-04-14 08:31:30 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(321): App\Models\M_belajar->joinwc('paket_detail', 'paket', 'paket_detail.id...', 'id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 08:31:49 --> Unknown column 'paket_detail.deleted_at' in 'where clause'
+CRITICAL - 2025-04-14 08:31:49 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(321): App\Models\M_belajar->joinwc('paket_detail', 'paket', 'paket_detail.id...', 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 08:32:40 --> Unknown column 'paket_detail.deleted_at' in 'where clause'
+CRITICAL - 2025-04-14 08:32:40 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(321): App\Models\M_belajar->joinwc('paket_detail', 'paket', 'paket_detail.id...', 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 08:32:44 --> Unknown column 'paket_detail.deleted_at' in 'where clause'
+CRITICAL - 2025-04-14 08:32:44 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(321): App\Models\M_belajar->joinwc('paket_detail', 'paket', 'paket_detail.id...', 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-14 08:41:26 --> Cannot use object of type stdClass as array
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include()
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('inputdatas', Array, true)
+#3 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(356): view('inputdatas', Array)
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formdatas()
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-14 08:41:30 --> Cannot use object of type stdClass as array
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include()
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('inputdatas', Array, true)
+#3 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(356): view('inputdatas', Array)
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formdatas()
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-14 09:30:34 --> Call to a member function insert() on null
+#0 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->input_paket()
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+ERROR - 2025-04-14 09:34:34 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2025-04-14 09:34:34 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2025-04-14 09:59:19 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\pointofsale\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\pointofsale\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(320): CodeIgniter\Model->__call('joinwc23', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-14 09:59:58 --> You must set the database table to be used with your query.
+#0 C:\Users\redmibook\Videos\pointofsale\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\redmibook\Videos\pointofsale\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(320): CodeIgniter\Model->__call('joinwc23', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-14 10:08:57 --> Unknown column 'paket,id_paket' in 'on clause'
+CRITICAL - 2025-04-14 10:08:57 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(661): App\Models\M_belajar->joinwc2('paket_detail', 'paket', 'paket_detail.id...', 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:09:25 --> Unknown column 'paket,id_paket' in 'on clause'
+CRITICAL - 2025-04-14 10:09:25 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(661): App\Models\M_belajar->joinw('paket_detail', 'paket', 'paket_detail.id...', 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:10:20 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:10:20 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinw('paket_detail', 'paket', 'paket_detail.id...', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:10:27 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:10:27 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinw('paket_detail', 'paket', 'paket_detail.id...', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:11:43 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:11:43 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinw('paket_detail', 'paket', 'paket_detail.id...', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:11:44 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:11:44 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinw('paket_detail', 'paket', 'paket_detail.id...', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:12:27 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:12:27 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinw('paket_detail', 'paket', 'paket_detail.id...', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:14:03 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:14:03 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall('paket_detail', 'paket', 'paket_detail.id...', Array, 'paket_detail.id...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:18:19 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:18:19 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall('paket_detail', 'paket', 'paket_detail.id...', Array, 'paket_detail.id...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:19:10 --> Column 'id_paket' in where clause is ambiguous
+ERROR - 2025-04-14 10:19:10 --> Query failed: Array
+(
+    [code] => 1052
+    [message] => Column 'id_paket' in where clause is ambiguous
+)
+
+CRITICAL - 2025-04-14 10:19:10 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\epaket.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 36, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(666): view('epaket', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-14 10:19:44 --> Column 'id_paket' in where clause is ambiguous
+ERROR - 2025-04-14 10:19:44 --> Query failed: Array
+(
+    [code] => 1052
+    [message] => Column 'id_paket' in where clause is ambiguous
+)
+
+CRITICAL - 2025-04-14 10:19:44 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\epaket.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 36, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(666): view('epaket', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-14 10:20:23 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:20:23 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall('paket_detail', 'paket', 'paket_detail.id...', Array, 'paket_detail.id...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:20:30 --> Column 'id_paket' in where clause is ambiguous
+ERROR - 2025-04-14 10:20:30 --> Query failed: Array
+(
+    [code] => 1052
+    [message] => Column 'id_paket' in where clause is ambiguous
+)
+
+CRITICAL - 2025-04-14 10:20:30 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\epaket.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 36, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(666): view('epaket', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-14 10:20:56 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:20:56 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall('paket_detail', 'paket', 'paket_detail.id...', Array, 'paket_detail.id...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:21:03 --> Column 'id_paket' in where clause is ambiguous
+ERROR - 2025-04-14 10:21:03 --> Query failed: Array
+(
+    [code] => 1052
+    [message] => Column 'id_paket' in where clause is ambiguous
+)
+
+CRITICAL - 2025-04-14 10:21:03 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\epaket.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 36, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(666): view('epaket', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-14 10:22:21 --> Unknown column 'produk' in 'from clause'
+CRITICAL - 2025-04-14 10:22:21 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket_detail.id...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:22:26 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:22:26 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall3('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket_detail.id...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:22:48 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:22:48 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall3('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:24:39 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:24:39 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall3('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:29:24 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:29:24 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall3('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:29:25 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:29:25 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall3('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:31:17 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:31:17 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall3('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-14 10:31:25 --> Column 'id_paket' in where clause is ambiguous
+CRITICAL - 2025-04-14 10:31:25 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(662): App\Models\M_belajar->joinwall3('paket_detail', 'paket', 'produk', 'paket_detail.id...', 'paket_detail.id...', Array, 'paket.id_paket')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-14 10:37:07 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_paket...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_paket...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-14 10:37:18 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_paket...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_paket...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-14 10:37:25 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_paket...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_paket...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-14 10:37:32 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tampildata')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tampildata')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-14 10:38:09 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\epaket.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 28, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(674): view('epaket', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('10')
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+ERROR - 2025-04-14 22:48:49 --> Column 'id_user' cannot be null
+ERROR - 2025-04-14 22:51:42 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-14 11:14:37 --> Call to a member function input() on null
+#0 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->inputpemesanan()
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+CRITICAL - 2025-04-14 23:59:40 --> syntax error, unexpected '=', expecting ')'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\redmib...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}

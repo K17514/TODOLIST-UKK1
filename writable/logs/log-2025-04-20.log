@@ -1,0 +1,13 @@
+ERROR - 2025-04-20 11:34:51 --> Column 'id_user' cannot be null
+ERROR - 2025-04-20 11:36:19 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-20 11:36:21 --> Invalid file: user_log_activity.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_log_activi...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('user_log_activi...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(1542): view('user_log_activi...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->user_log_activity()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-20 23:05:01 --> Column 'id_user' cannot be null

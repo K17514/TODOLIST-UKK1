@@ -1,0 +1,472 @@
+CRITICAL - 2025-04-15 10:12:29 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php on line 25 and exactly 2 expected
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(25): App\Models\M_belajar->tampil('metode_pembayar...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 10:12:44 --> Unknown column 'metode_pembayaran.deleted_at' in 'where clause'
+CRITICAL - 2025-04-15 10:12:44 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(25): App\Models\M_belajar->tampil('metode_pembayar...', 'id_metode')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 10:13:02 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 61, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(32): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 10:13:26 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 61, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(32): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 00:00:10 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\redmib...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+ERROR - 2025-04-15 01:35:14 --> Table 'point_of_sale.metode' doesn't exist
+CRITICAL - 2025-04-15 01:35:14 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(318): App\Models\M_belajar->getWhereOpt('metode', Array, false, 'id_metode')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 01:36:04 --> Table 'point_of_sale.metode' doesn't exist
+CRITICAL - 2025-04-15 01:36:04 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(318): App\Models\M_belajar->tampilnormal('metode', 'id_metode')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 01:36:18 --> Cannot use object of type stdClass as array
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include()
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('tampildata', Array, true)
+#3 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(341): view('tampildata', Array)
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-15 01:36:58 --> Cannot use object of type stdClass as array
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include()
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('tampildata', Array, true)
+#3 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(341): view('tampildata', Array)
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-15 01:43:21 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_metod...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_metod...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 01:44:50 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\Users\redmibook\Videos\pointofsale\app\Models\M_belajar.php on line 224
+#0 C:\Users\redmibook\Videos\pointofsale\app\Models\M_belajar.php(224): CodeIgniter\Database\BaseBuilder->update('3', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(779): App\Models\M_belajar->edit('metode_pembayar...', '3', Array)
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->simpan_metode()
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#7 {main}
+ERROR - 2025-04-15 08:00:47 --> Unknown column 'metode' in 'field list'
+ERROR - 2025-04-15 20:02:58 --> Column 'id_user' cannot be null
+CRITICAL - 2025-04-15 08:24:30 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(704): view('epaket', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('11')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 08:24:58 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\epaket.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 28, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(704): view('epaket', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('11')
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 08:34:19 --> Cannot use object of type stdClass as array
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include()
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#3 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(704): view('epaket', Array)
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('11')
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-15 08:35:58 --> Cannot use object of type stdClass as array
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include()
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('epaket', Array, true)
+#3 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(704): view('epaket', Array)
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->edit_paket('11')
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#9 {main}
+CRITICAL - 2025-04-15 09:11:36 --> Argument 2 passed to CodeIgniter\BaseModel::delete() must be of the type bool, array given, called in C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php on line 732
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(732): CodeIgniter\BaseModel->delete('paket_detail', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->simpan_paket()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 09:13:31 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_paket...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_paket...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 09:19:19 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_paket...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_paket...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 09:47:45 --> Too few arguments to function App\Controllers\Home::hapus_paket(), 0 passed in C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->hapus_paket()
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#5 {main}
+CRITICAL - 2025-04-15 09:50:59 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('tampildata', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(341): view('tampildata', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampildata()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 22:14:37 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 48, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(49): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 22:15:15 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 48, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(49): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 22:15:41 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 48, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(49): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 22:16:28 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 48, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(50): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 22:16:38 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 48, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(50): view('index', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 10:20:18 --> syntax error, unexpected '$parent' (T_VARIABLE), expecting ')'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/index')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 22:20:31 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 48, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(46): view('index', Array, Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 11:03:11 --> syntax error, unexpected '$cartData' (T_VARIABLE)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/logout')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/logout')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 11:03:11 --> syntax error, unexpected '$cartData' (T_VARIABLE)
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 12:27:19 --> Table 'point_of_sale.pemesanan' doesn't exist
+CRITICAL - 2025-04-15 12:27:19 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(369): App\Models\M_belajar->joinwc('pemesanan', 'nota', 'pemesanan.id_no...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 12:27:49 --> Column 'id_nota' in order clause is ambiguous
+CRITICAL - 2025-04-15 12:27:49 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(369): App\Models\M_belajar->joinwc('pesanan', 'nota', 'pesanan.id_nota...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 12:28:21 --> Unknown column 'metode.id_metode' in 'on clause'
+CRITICAL - 2025-04-15 12:28:21 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(370): App\Models\M_belajar->joinwc('nota', 'metode_pembayar...', 'nota.id_metode=...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 12:28:36 --> Invalid argument supplied for foreach()
+#0 C:\Users\redmibook\Videos\pointofsale\app\Views\tampiltransaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\redmib...', 42, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(210): include('C:\\Users\\redmib...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('tampiltransaksi', Array, true)
+#4 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(373): view('tampiltransaksi', Array)
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#6 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#10 {main}
+CRITICAL - 2025-04-15 21:01:20 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeZQekqAAAAAIk1nT3Xbz4KcKFyZ4Uk51w8m1b4&amp;response=03AFcWeA5bwa9o35v-4q4VT_9ISx7wY773OAhsZdlHimI_93-32vns5O7JKch14JM2HoiUSLTrr2iZ4nuSwjp_JFhR9Ww_D-hPO_Ts9uPq1_yXogwO0eGE-gC8bnqi8iRD0PsrX9jx-qJPbHGPv6Pt4tq8OhGrDbiVTUDYBOlNKSLrgQXdBbh2O-P4FcbmRF9R8STq4HFS7WDyankZfw1CsSjZYMlakwR8JPte6dzA3618UyvAiOk4oWTkRik_62i6eAB1T-GmU28R4N1NB8YJCgWkHkbwITX67fq9RbZ715xnCS_u5cejiecrMUw0qk4gYPeQTC_rD4Xp_cMTD0oHKnQlu4FtqsurW0tjOc3yXDfNXU1iAQ3sJyNlZTk5niudy86kaoBA5h87WbY6AYxAZgAr0NlJ8EOhLFOuZ7P7VJyXbrDzLTIb5GbSRHVAIs07otXNQ4mwMs7fywPzt3W0bWkWdqMDhAnjOhblzljTfU2yx6UziAoIsm63cfdhfYimukwnUwq37EcTIIOxcAM_WSotZyqNB5VmcUFqk5wdFy0nyc6MtzM4tXYeLFeMcydq8RqJ-lFsgM9WiGJkYMvo9KvjGd46PLb_JYO45AhW2LlMSD5W-mLYYjBeiZ2e33wRrUsA2zqP1N1fvlq8Cu4lM_dzZsEgdgApQSCgfdYNfeeAymRVGSRMWTIwLvadW3gpI77eKJSfGnaVl1xmaNcqCUZ28wn2GzZ--MqF9Z2w3faNi4vTXxdeR1B2F3z4n7ahWEDLoyJhw5boQ7pV7C9TD4j9icCmXgStUxdsnuS9qZ1uXoKVS2HeVMRBrh7aoT6C76G7cBMwijtKzQ3Po1Ek_w7lRnicJ2sLGc7utt64NMEKsFMuhcjqEbvOJ46TcGO4-l3H8Xn1mzLGxMm97q_AJ2vPi9_xN1gZ4tgOR_vstYMLcEoxIp3X7p_sdYMylqSU0QI3W-EE8QdP_A54F-U_1mN1UiuUPvmqqRqXOxNjuctgEaFAzZvFzsmJ-Z-eUBhnm4tuQw0kxDp2Jd1tchOAte8rz61ay2JE8CDTmEyFhSUDkremomIF510ilFoi_kYnipnk2LcYKz8gI7VMawzEMt0nnI6NdFgRBK8zYe39tpfVKK2x4kQizfm2wCyEeA96gxt4jvuad-QRaaJuknsigNHAJrxKbIZq2bHv7NPmLocPNwYegGDJUp64GCNo3z8IA6aIaMY4Ku-kCQftM6uigxldu9bHt3ddCt_eWIKjEDZgHFJropUY696vO36WEHtUM3s48qpdPzh2Hkq1MT3rEkqr1G_RcuFLiz1SRWGou0m_rHsHgitsPuaBAHotQ9ZQcX8Aw5oRBysIcq4XwpkneFhnPce0z_Vo2FrlqkXxQE_YPAlkpjF_ejF9bhV9wtYnnfIpOVO5u8j-U26akP96v6tE9cNEn817URNU0Ad34Crg6MZaiptYZlFA-cwem_qrLnk6yeLAoCugMim84iR4Rv91vcN5gWbnMfnt2kkI7lWoXvTAXGFwKr8WYfrzFdWKZjxYAP-xo_BK48Ake9GRwB2fmXS68wa1Jb-JJvX8sM66X5TzxzIhelwCQWF3EqUBOYBGIh9HWLV8MCV-xZz81QRMNdO2PbqffaAfjeV82G5FvT1Kgs7Q1VlCzA5_8Ycxwl9CXZAn4MvSjk8v3zNDVG0ir_pDWJm06uBXuEmmJAt-DODcqKT6YjbWc0bdYJAYduMOJnY1tSG6tKbN93nVjH2ABibjasH1x8VkQvDIBz8-vlP57tiswENnsGyC4SjPSLHdc0MdPjRPlFHhHee3HTHezZxQ736Vdx76MJ5j_b0ALZruYHHuar52PHohZJdfK7uX3dxr9VXqWEY2-IhrCpLGjPrSdxAM5Iyad1qvfeCKcy98N_UqANvVsCobDIYsimMBcRu-2J7xZ4V5_5y4_FV78h7V8kTBis2JZZY7bl0lw2X092yuXBJu4n_r0BWsfFLMnVkOF41hPQlQ6L7fPgRs3ScMeKGlR6fuIO4QAk8uMhUxVHpfRGs): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\redmib...', 95, Array)
+#1 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(95): file_get_contents('https://www.goo...')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#7 {main}
+ERROR - 2025-04-15 21:17:50 --> Unknown column 'metode_pembayaran.deleted_at' in 'where clause'
+CRITICAL - 2025-04-15 21:17:50 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(375): App\Models\M_belajar->joinwc23t('nota', 'metode_pembayar...', 'pesanan', 'nota.id_metode=...', 'pesanan.id_nota...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 21:18:12 --> Unknown column 'metode_pembayaran.deleted_at' in 'where clause'
+CRITICAL - 2025-04-15 21:18:12 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(375): App\Models\M_belajar->joinwc23t('nota', 'metode_pembayar...', 'pesanan', 'nota.id_metode=...', 'pesanan.id_nota...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 21:19:02 --> Unknown column 'metode_pembayaran.id_metode' in 'on clause'
+CRITICAL - 2025-04-15 21:19:02 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(375): App\Models\M_belajar->joinwc23t('pesanan', 'nota', 'metode_pembayar...', 'nota.id_metode=...', 'pesanan.id_nota...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 21:19:18 --> Column 'id_nota' in order clause is ambiguous
+CRITICAL - 2025-04-15 21:19:18 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(375): App\Models\M_belajar->joinwc23t('pesanan', 'nota', 'metode_pembayar...', 'pesanan.id_nota...', 'nota.id_metode=...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 21:23:27 --> Unknown column 'metode_pembayaran.deleted_at' in 'where clause'
+CRITICAL - 2025-04-15 21:23:27 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(375): App\Models\M_belajar->joinwc23t('nota', 'metode_pembayar...', 'user', 'nota.id_metode=...', 'nota.created_by...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-15 21:24:53 --> Unknown column 'metode_pembayaran.deleted_at' in 'where clause'
+CRITICAL - 2025-04-15 21:24:53 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(375): App\Models\M_belajar->joinwc23t('nota', 'metode_pembayar...', 'user', 'nota.id_metode=...', 'nota.created_by...', 'id_nota')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->tampiltransaksi()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 21:56:47 --> syntax error, unexpected '{'
+#0 C:\Users\redmibook\Videos\pointofsale\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/aksi_login')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/aksi_login')
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-15 21:58:09 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(856): view('transaksi', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formbayar('21')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 21:58:50 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(856): view('transaksi', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formbayar('21')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 22:00:33 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(856): view('transaksi', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formbayar('21')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 22:01:17 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(856): view('transaksi', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formbayar('21')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 22:02:50 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(856): view('transaksi', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formbayar('21')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 22:03:48 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(856): view('transaksi', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formbayar('21')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-15 22:04:09 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(856): view('transaksi', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->formbayar('21')
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}

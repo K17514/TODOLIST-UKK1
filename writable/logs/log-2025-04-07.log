@@ -1,0 +1,360 @@
+ERROR - 2025-04-07 06:53:05 --> Table 'point_of_sale.course' doesn't exist
+CRITICAL - 2025-04-07 06:53:05 --> Call to a member function getRow() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(25): App\Models\M_belajar->joinw('course', 'user', 'course.id_user ...', Array)
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-07 06:55:05 --> Invalid file: login.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(43): view('login')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 19:18:03 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 19:18:03 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:19:35 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:19:35 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:20:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:20:50 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:20:54 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:21:04 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:21:27 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 20:21:29 --> Invalid file: profile.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(369): view('profile')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 20:23:19 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 20:23:19 --> Invalid file: profile.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(369): view('profile')
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 20:25:28 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:33:19 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:33:19 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:34:26 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:36:22 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:37:55 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:41:33 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:44:01 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:44:12 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:44:38 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:45:18 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:45:59 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:46:46 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:47:46 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:49:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:49:52 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:50:31 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:52:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:52:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:54:54 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:54:54 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:55:15 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:55:40 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:55:47 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:56:23 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:57:14 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:58:43 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:59:35 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:59:52 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 20:59:57 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:01:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:02:32 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:02:46 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:03:21 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:04:30 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:04:34 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:04:36 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:06:09 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:06:14 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:06:17 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:07:00 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:07:17 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:08:00 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:08:02 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:08:13 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:08:46 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:08:48 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:12:16 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:12:18 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:12:20 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 09:12:21 --> Invalid file: admin/tampiluser.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tampiluse...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(99): view('admin/tampiluse...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 09:12:22 --> Table 'point_of_sale.question' doesn't exist
+CRITICAL - 2025-04-07 09:12:22 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(235): App\Models\M_belajar->getDelete('question', 'deleted_at IS N...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-07 09:12:24 --> Invalid file: admin/tampiluser.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tampiluse...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(99): view('admin/tampiluse...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 09:12:25 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 09:12:25 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(302): App\Models\M_belajar->join('log_activity', 'user', 'log_activity.id...', 'id_log')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->log_activity()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-07 09:12:27 --> Invalid file: admin/tampiluser.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tampiluse...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(99): view('admin/tampiluse...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 21:12:28 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:12:29 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:12:30 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:12:33 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:12:34 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:14:48 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:15:52 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:15:53 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:15:59 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:17:13 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:17:18 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:17:19 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:17:22 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:18:02 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:18:34 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:18:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:18:44 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:19:19 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:21:04 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 21:21:04 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(23): view('header', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 21:21:33 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 21:21:33 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(23): view('header', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 21:21:46 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 21:21:46 --> syntax error, unexpected end of file
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\Home.php(23): view('header', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 21:23:31 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:24:20 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:24:57 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:25:05 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:34:11 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:34:12 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:34:28 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:34:28 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:34:33 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:34:58 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 09:35:09 --> Invalid file: admin/tampiluser.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tampiluse...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(99): view('admin/tampiluse...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 09:35:16 --> Table 'point_of_sale.question' doesn't exist
+CRITICAL - 2025-04-07 09:35:16 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(235): App\Models\M_belajar->getDelete('question', 'deleted_at IS N...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+CRITICAL - 2025-04-07 09:35:17 --> Invalid file: admin/tampiluser.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tampiluse...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(99): view('admin/tampiluse...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+CRITICAL - 2025-04-07 09:35:18 --> Invalid file: admin/tampiluser.php
+#0 C:\Users\redmibook\Videos\pointofsale\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tampiluse...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\Common.php(1089): CodeIgniter\View\View->render('admin/tampiluse...', Array, true)
+#2 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(99): view('admin/tampiluse...', Array)
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->tampiluser()
+#4 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#8 {main}
+ERROR - 2025-04-07 21:35:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 09:36:13 --> Table 'point_of_sale.question' doesn't exist
+CRITICAL - 2025-04-07 09:36:13 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(235): App\Models\M_belajar->getDelete('question', 'deleted_at IS N...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-07 21:36:20 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 09:36:21 --> Table 'point_of_sale.question' doesn't exist
+CRITICAL - 2025-04-07 09:36:21 --> Call to a member function getResultArray() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(235): App\Models\M_belajar->getDelete('question', 'deleted_at IS N...')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->deleted_data()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-07 21:36:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 09:36:24 --> Table 'point_of_sale.log_activity' doesn't exist
+CRITICAL - 2025-04-07 09:36:24 --> Call to a member function getResult() on bool
+#0 C:\Users\redmibook\Videos\pointofsale\app\Controllers\admin.php(302): App\Models\M_belajar->join('log_activity', 'user', 'log_activity.id...', 'id_log')
+#1 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(832): App\Controllers\Admin->log_activity()
+#2 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\redmibook\Videos\pointofsale\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\redmibook\Videos\pointofsale\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\redmibook\Videos\pointofsale\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\redmib...')
+#6 {main}
+ERROR - 2025-04-07 21:36:27 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 21:36:35 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 22:37:26 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 22:58:53 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 22:58:54 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 22:59:04 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:06:56 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:06:57 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:07:53 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:07:56 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:10:07 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:11:17 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:11:18 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:12:42 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:13:23 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:13:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:16:22 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:16:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:17:57 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:18:44 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:18:50 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:21:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:21:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:24:13 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:24:14 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:24:40 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:27:17 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:29:09 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:29:09 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:31:26 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:32:25 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:34:13 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:34:41 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:35:18 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:37:02 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:37:12 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:37:51 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:38:02 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:40:02 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:40:45 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:41:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:41:53 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:41:59 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:42:50 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:43:57 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:45:33 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:45:55 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:46:09 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:46:38 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:47:12 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:47:30 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:47:50 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:48:50 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:49:04 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:49:17 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:49:19 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:49:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:49:35 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:50:06 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:50:24 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:50:45 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:51:28 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:52:21 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:52:27 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:52:36 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:52:51 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:53:17 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:53:27 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:55:05 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:55:45 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:56:47 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:56:54 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:57:05 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:57:12 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:57:18 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:57:28 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:57:37 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:57:46 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:58:13 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:58:19 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:58:34 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:58:51 --> Table 'point_of_sale.log_activity' doesn't exist
+ERROR - 2025-04-07 23:59:19 --> Table 'point_of_sale.log_activity' doesn't exist
